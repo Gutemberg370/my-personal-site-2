@@ -1,0 +1,168 @@
+/* The definitive css file for my second site */
+
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0px;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  color: #eaf6f6;
+  padding-bottom: 80px;
+  width: 5%;
+}
+
+p {
+  font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+  line-height: 2;
+}
+
+/* "text-decoration:none" serve para retirar o sublinhado nos links da tag <a> */
+a {
+  color: #11999e;
+  font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: aqua;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  background-color: #fda0e6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 30px;
+}
+
+.hacker {
+  float: left;
+  height: 150px;
+  margin-right: 30px;
+  width: 300px;
+}
+
+.heartstone {
+  float: right;
+  height: 150px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.presentation {
+  margin: auto;
+  padding-bottom: 80px;
+  width: 30%;
+}
+
+.coding {
+  clear: left;
+  padding-top: 40px;
+}
+
+.playing {
+  clear: right;
+  padding-top: 40px;
+}
+
+.finalization {
+  margin: auto;
+  padding-bottom: 80px;
+  width: 40%;
+}
+
+.name {
+  color: #eaf6f6;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.h3-1 {
+  font-size: 1.5rem;
+  padding-top: 45px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 15%;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+/* 
+
+Nota
+
+Usar este site para criar um botão em css: https://css3buttongenerator.com/
+
+
+*/
